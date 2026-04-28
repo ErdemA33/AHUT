@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.xlsx
+*.xls
+*.csv
+ozetler.json
+ozetler.json.tmp
+venv/
+.venv/
+.vscode/
