@@ -112,7 +112,7 @@ def main():
         print(f"HATA: {EXCEL_DOSYASI} bulunamadı!")
         return
 
-    df = pd.read_excel(EXCEL_DOSYASI,header=None).head(3)
+    df = pd.read_excel(EXCEL_DOSYASI,header=None).head(500)
     print(f"✓ Excel okundu: {len(df)} satır")
     print(f"  Sütunlar: {df.columns.tolist()}")
 
